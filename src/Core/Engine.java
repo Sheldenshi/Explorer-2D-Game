@@ -49,7 +49,7 @@ public class Engine {
         Font subtitle = new Font("Monaco", Font.PLAIN, 15);
         StdDraw.setPenColor(StdDraw.WHITE);
         StdDraw.setFont(title);
-        StdDraw.text(40, 18, "My Game");
+        StdDraw.text(40, 18, "Explorer");
         StdDraw.setFont(subtitle);
         StdDraw.text(40, 16, "New Game (N)");
         StdDraw.text(40, 15, "Load Game (L)");
@@ -145,7 +145,7 @@ public class Engine {
         Font title = new Font("Monaco", Font.BOLD, 50);
         Font subtitle = new Font("Monaco", Font.PLAIN, 15);
         StdDraw.setFont(title);
-        StdDraw.text(40, 18, "My Game");
+        StdDraw.text(40, 18, "Explorer");
         StdDraw.setFont(subtitle);
         StdDraw.text(40, 16, "New Game (N)");
         StdDraw.text(40, 15, "Load Game (L)");
