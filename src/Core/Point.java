@@ -1,4 +1,4 @@
-package src.Core;
+package Core;
 
 import java.io.Serializable;
 

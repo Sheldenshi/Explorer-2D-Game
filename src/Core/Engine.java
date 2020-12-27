@@ -23,7 +23,7 @@ public class Engine {
     public static final int HEIGHT = 32;
     private WorldObjects worldObjects;
     private TERenderer ter = new TERenderer();
-    private boolean limit = false;
+    private boolean limit = true;
 
     public TETile[][] worldInitialize () {
         // initialize tiles
@@ -116,7 +116,7 @@ public class Engine {
                     if (withKeyboard) {
                         StdDraw.clear(StdDraw.BLACK);
                         StdDraw.setPenColor(StdDraw.RED);
-                        StdDraw.text(0.5, 0.3,
+                        StdDraw.text(40, 15,
                                 "Type :Q to save and quit.");
                         StdDraw.show();
                     }

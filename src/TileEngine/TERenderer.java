@@ -1,6 +1,7 @@
 package TileEngine;
 
 import Core.Engine;
+import Core.Point;
 import Core.WorldObjects;
 import edu.princeton.cs.introcs.StdDraw;
 
@@ -181,8 +182,8 @@ public class TERenderer {
         }
 
         StdDraw.setPenColor(StdDraw.WHITE);
-        StdDraw.text(8, 31, Integer.toString(worldObjects.getDoors().size()) + " doors left on the map.");
-        StdDraw.text(40, 31, "Open all the doors to win!");
+        StdDraw.text(8, 31, Integer.toString(worldObjects.getDoors().size()) + " treasures left on the map.");
+        StdDraw.text(40, 31, "Find all the treasures to win!");
         StdDraw.show();
     }
 }

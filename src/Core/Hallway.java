@@ -1,7 +1,7 @@
 package Core;
 
-import src.TileEngine.TETile;
-import src.TileEngine.Tileset;
+import TileEngine.TETile;
+import TileEngine.Tileset;
 import java.lang.*;
 import java.util.*;
 

@@ -1,8 +1,8 @@
 package Core;
 
-import src.TileEngine.TERenderer;
-import src.TileEngine.TETile;
-import src.TileEngine.Tileset;
+import TileEngine.TERenderer;
+import TileEngine.TETile;
+import TileEngine.Tileset;
 
 import java.io.Serializable;
 import java.util.*;
