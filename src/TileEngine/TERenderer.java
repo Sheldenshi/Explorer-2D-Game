@@ -1,8 +1,7 @@
-package byow.TileEngine;
+package TileEngine;
 
-import byow.Core.Engine;
-import byow.Core.Point;
-import byow.Core.WorldObjects;
+import Core.Engine;
+import Core.WorldObjects;
 import edu.princeton.cs.introcs.StdDraw;
 
 import java.awt.Color;

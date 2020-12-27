@@ -1,8 +1,8 @@
-package byow.Core;
+package Core;
 
-import byow.TileEngine.TERenderer;
-import byow.TileEngine.TETile;
-import byow.TileEngine.Tileset;
+import TileEngine.TERenderer;
+import TileEngine.TETile;
+import TileEngine.Tileset;
 
 import edu.princeton.cs.algs4.BlackFilter;
 import edu.princeton.cs.algs4.ST;

@@ -1,8 +1,8 @@
-package byow.Core;
+package Core;
 
-import byow.TileEngine.TERenderer;
-import byow.TileEngine.TETile;
-import byow.TileEngine.Tileset;
+import src.TileEngine.TERenderer;
+import src.TileEngine.TETile;
+import src.TileEngine.Tileset;
 
 import java.io.Serializable;
 import java.util.*;

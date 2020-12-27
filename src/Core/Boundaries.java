@@ -10,7 +10,7 @@ public class Boundaries implements Serializable {
     private int yMax;
     private int yMin;
 
-    public Boundaries(ArrayList<byow.Core.Room> rooms) {
+    public Boundaries(ArrayList<Room> rooms) {
         this.xMin = Engine.WIDTH;
         this.xMax = 0;
         this.yMin = Engine.HEIGHT;

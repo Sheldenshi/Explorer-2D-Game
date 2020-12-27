@@ -1,6 +1,6 @@
-package byow.Core;
+package Core;
 
-import byow.TileEngine.TETile;
+import src.TileEngine.TETile;
 
 import java.io.Serializable;
 import java.util.ArrayList;
